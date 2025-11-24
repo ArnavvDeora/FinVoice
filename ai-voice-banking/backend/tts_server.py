@@ -15,7 +15,7 @@ from google.cloud import speech
 # -----------------------------
 GOOGLE_KEY = "stt_key.json"
 # Update with your actual key
-ELEVEN_API_KEY = "sk_c1781aef185dd82140d37a26fac90a819a11b862c7c4ca19" 
+ELEVEN_API_KEY = 
 ELEVEN_VOICE_ID = "pNInz6obpgDQGcFmaJgB" 
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GOOGLE_KEY
