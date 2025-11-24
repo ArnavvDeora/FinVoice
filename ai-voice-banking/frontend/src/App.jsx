@@ -46,7 +46,7 @@ const CustomTooltip = ({ active, payload }) => {
 // --- Constants ---
 const OPENAI_URL = 'https://api.openai.com/v1/chat/completions'
 // Hardcoded for demo, but prefer .env in production
-const OPENAI_KEY = import.meta.env.VITE_OPENAI_KEY || "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"
+const OPENAI_KEY = import.meta.env.VITE_OPENAI_KEY 
 
 const BANK_NAME = "NEXUS PRIME BANK"
 const WS_URL = 'ws://localhost:5000/stream'
